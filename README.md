@@ -30,9 +30,7 @@ A client library for accessing [MangaUpdates API](https://api.mangaupdates.com/)
     Or do the same thing with an async version:
 
     ```python
-    from manga_updates_api_client.models import MyDataModel
     from manga_updates_api_client.api.series import retrieve_series
-    from manga_updates_api_client.types import Response
 
     response = await retrieve_series.asyncio_detailed(client=client, id=15090100540)
     ```
